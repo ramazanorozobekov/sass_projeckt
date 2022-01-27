@@ -48,7 +48,8 @@ body {
 
 #header {
   position: absolute;
-  padding: 50px 200px;
+  width: 100%;
+  padding: 50px;
 }
 #header .header {
   display: flex;
@@ -246,38 +247,19 @@ body {
 }
 
 #as {
+  margin-top: 100px;
+}
+#as .as {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  min-height: 82vh;
-  background: #E0C097;
 }
-#as .as__img {
+#as .as__img--left {
+  margin-left: -190px;
+}
+#as .as__img--right {
   position: absolute;
-  margin-left: -13%;
-  margin-top: -12%;
-  border-top-right-radius: 250px;
-  border-bottom-right-radius: 250px;
+  margin-left: 500px;
 }
-#as .as__title {
-  margin-left: 70%;
-}
-#as .as__title--theme {
-  width: 445px;
-  font-family: "Nunito", sans-serif;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 65px;
-  color: #5C3D2E;
-}
-#as .as__title--desc {
-  width: 445px;
-  font-family: "Nunito", sans-serif;
-  font-size: 24px;
-  line-height: 33px;
-  color: #5C3D2E;
-}
+
 #diam {
   margin-top: 10%;
 }

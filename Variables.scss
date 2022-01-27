@@ -1,6 +1,11 @@
 $BgColor: #B85C38;
 $Cl:#BDBDBD;
 $ff: "Nunito", sans-serif;
+@mixin large-text{
+  background: url("../img/Rocket1.svg");
+  color: #B85C38;
+
+}
 
 %btn {
   font-family: Nunito, sans-serif;
