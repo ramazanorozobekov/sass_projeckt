@@ -1,0 +1,24 @@
+$BgColor: #B85C38;
+$Cl:#BDBDBD;
+$ff: "Nunito", sans-serif;
+
+%btn {
+  font-family: Nunito, sans-serif;
+  padding: 18px 32px;
+  background: $BgColor;
+  color: #FFFFFF;;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 40px;
+}
+
+%btn2 {
+  background: transparent;
+  border: 2px solid #FFFFFF;
+  padding: 18px 32px;
+  border-radius: 40px;
+  font-family: Nunito, sans-serif;
+  font-size: 20px;
+  color: #FFFFFF;
+}
